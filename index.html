@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N & W DESIGN LTDA</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Arial", sans-serif;
+            color: #fff;
+            background-color: #111;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            background-color: rgba(0,0,0,0.8);
+            padding: 20px 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9900;
+        }
+
+        section {
+            padding: 100px 10%;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('https://plus.unsplash.com/premium_photo-1674728198545-8fa4796b9297?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: "Times New Roman", serif;
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            max-width: 900px;
+            line-height: 1.6;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+
+        .about-text {
+            width: 55%;
+            font-size: 22px;
+            line-height: 1.7;
+        }
+
+        .about img {
+            width: 35%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .section-title {
+            font-size: 38px;
+            font-weight: bold;
+            color: #ff9900;
+            margin-bottom: 40px;
+        }
+
+        .services, .advantages, .process {
+            font-size: 22px;
+            line-height: 1.7;
+        }
+
+        .service-item, .advantage-item, .process-step {
+            margin-bottom: 40px;
+        }
+
+        .contact {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+            url('https://plus.unsplash.com/premium_photo-1674728198545-8fa4796b9297?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contact h2 {
+            color: #ff9900;
+            font-size: 38px;
+            margin-bottom: 30px;
+        }
+
+        .contact p {
+            font-size: 22px;
+            max-width: 800px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            max-width: 600px;
+        }
+
+        input, textarea {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #ff9900;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e88c00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Quem Somos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#vantagens">Por que Nós</a>
+            <a href="#processo">Nosso Processo</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1><b>N & W DESIGN LTDA</b></h1>
+        <p>Acreditamos que cada marca merece brilhar no mundo digital. Unimos criatividade, estratégia e tecnologia para transformar negócios em referências no mercado — do conceito à execução.</p>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about-text">
+            <h2 class="section-title">Nossa Essência</h2>
+            <p>Somos uma agência especializada em publicidade, marketing digital, SEO e consultoria de marca. 
+            Na <b>N & W DESIGN LTDA</b>, criamos estratégias personalizadas que ajudam empresas a se destacarem no ambiente competitivo. 
+            Nosso time combina análise de dados e pensamento criativo para gerar resultados reais. 
+            Trabalhamos com paixão por inovação, respeitando a identidade de cada cliente e transformando ideias em impacto. 
+            Acreditamos em conexões autênticas e comunicação que inspira confiança.</p>
+        </div>
+        <img src="https://media.istockphoto.com/id/2161896312/photo/two-women-collaborating-in-a-modern-office-environment.webp?a=1&b=1&s=612x612&w=0&k=20&c=uPNgUp1w-lHMOMYrDg-zLsOortJ5kI9FZJ_SXue2c8s=" alt="Equipe criativa">
+    </section>
+
+    <section id="servicos" class="services">
+        <h2 class="section-title">O Que Fazemos</h2>
+
+        <div class="service-item">
+            <h3>Publicidade & Campanhas Estratégicas</h3>
+            <p>Criamos campanhas que conectam emoção e resultado. Cada projeto é planejado para gerar engajamento real e fortalecer a presença da sua marca em múltiplos canais.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>SEO e Marketing Digital</h3>
+            <p>Otimizamos seu site e presença online para atrair clientes qualificados. Com técnicas modernas de SEO e conteúdo estratégico, levamos sua marca ao topo das buscas.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Consultoria de Marca</h3>
+            <p>Guiamos empresas na construção de uma identidade forte e coerente. Ajudamos a definir propósito, voz e posicionamento para que sua marca comunique quem realmente é.</p>
+        </div>
+    </section>
+
+    <section id="vantagens" class="advantages">
+        <h2 class="section-title">Por Que Escolher a N & W DESIGN</h2>
+
+        <div class="advantage-item">
+            <h3>📈 Resultados Mensuráveis</h3>
+            <p>Nosso foco é gerar crescimento sustentável. Cada ação é acompanhada por métricas claras e relatórios transparentes.</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>💡 Criatividade com Propósito</h3>
+            <p>Transformamos ideias em experiências únicas, com design e storytelling que fortalecem a identidade da sua marca.</p>
+        </div>
+
+        <div class="advantage-item">
+            <h3>🤝 Parceria de Verdade</h3>
+            <p>Valorizamos a colaboração contínua. Trabalhamos lado a lado com nossos clientes, como parte do mesmo time.</p>
+        </div>
+    </section>
+
+    <section id="processo" class="process">
+        <h2 class="section-title">Nosso Processo</h2>
+
+        <div class="process-step">
+            <h3>1. Descoberta</h3>
+            <p>Entendemos o propósito, os valores e o público da sua marca. Essa etapa é essencial para criar estratégias alinhadas à sua visão.</p>
+        </div>
+
+        <div class="process-step">
+            <h3>2. Estratégia & Criação</h3>
+            <p>Desenvolvemos campanhas, identidade visual e conteúdo digital com foco em diferenciação e impacto.</p>
+        </div>
+
+        <div class="process-step">
+            <h3>3. Implementação & Acompanhamento</h3>
+            <p>Executamos, analisamos resultados e ajustamos continuamente para garantir o máximo desempenho e relevância.</p>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Queremos ouvir sobre seu projeto e transformar suas ideias em resultados concretos.  
+        Envie uma mensagem — nossa equipe está pronta para criar algo incrível ao seu lado.</p>
+
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea rows="5" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p style="margin-top:40px;">📧 E-mail: <b>welcome@nwdesign.org</b><br>
+        📍 Endereço: Av. Dos Holandeses 18 Sala 0565, 071-380 São Luís</p>
+    </section>
+
+    <footer>
+        © 2025 N & W DESIGN LTDA — Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
